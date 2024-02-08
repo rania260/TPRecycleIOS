@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4F30002B74C4DA00B13482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F2FFF2B74C4DA00B13482 /* AppDelegate.swift */; };
+		AC4F30022B74C4DA00B13482 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F30012B74C4DA00B13482 /* SceneDelegate.swift */; };
+		AC4F30042B74C4DA00B13482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F30032B74C4DA00B13482 /* ViewController.swift */; };
+		AC4F30072B74C4DA00B13482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4F30052B74C4DA00B13482 /* Main.storyboard */; };
+		AC4F30092B74C4DB00B13482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4F30082B74C4DB00B13482 /* Assets.xcassets */; };
+		AC4F300C2B74C4DB00B13482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4F300A2B74C4DB00B13482 /* LaunchScreen.storyboard */; };
+		AC4F30172B74C4DB00B13482 /* TpRecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F30162B74C4DB00B13482 /* TpRecycleTests.swift */; };
+		AC4F30222B74C4DB00B13482 /* TpRecycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F30212B74C4DB00B13482 /* TpRecycleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4F30132B74C4DB00B13482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4F2FF42B74C4DA00B13482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4F2FFB2B74C4DA00B13482;
+			remoteInfo = TpRecycle;
+		};
+		AC4F301E2B74C4DB00B13482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4F2FF42B74C4DA00B13482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4F2FFB2B74C4DA00B13482;
+			remoteInfo = TpRecycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC4F2FFC2B74C4DA00B13482 /* TpRecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpRecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4F2FFF2B74C4DA00B13482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4F30012B74C4DA00B13482 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC4F30032B74C4DA00B13482 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4F30062B74C4DA00B13482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4F30082B74C4DB00B13482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4F300B2B74C4DB00B13482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4F300D2B74C4DB00B13482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4F30122B74C4DB00B13482 /* TpRecycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpRecycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4F30162B74C4DB00B13482 /* TpRecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpRecycleTests.swift; sourceTree = "<group>"; };
+		AC4F30182B74C4DB00B13482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4F301D2B74C4DB00B13482 /* TpRecycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpRecycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4F30212B74C4DB00B13482 /* TpRecycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpRecycleUITests.swift; sourceTree = "<group>"; };
+		AC4F30232B74C4DB00B13482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4F2FF92B74C4DA00B13482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4F300F2B74C4DB00B13482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4F301A2B74C4DB00B13482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4F2FF32B74C4DA00B13482 = {
+			isa = PBXGroup;
+			children = (
+				AC4F2FFE2B74C4DA00B13482 /* TpRecycle */,
+				AC4F30152B74C4DB00B13482 /* TpRecycleTests */,
+				AC4F30202B74C4DB00B13482 /* TpRecycleUITests */,
+				AC4F2FFD2B74C4DA00B13482 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4F2FFD2B74C4DA00B13482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4F2FFC2B74C4DA00B13482 /* TpRecycle.app */,
+				AC4F30122B74C4DB00B13482 /* TpRecycleTests.xctest */,
+				AC4F301D2B74C4DB00B13482 /* TpRecycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4F2FFE2B74C4DA00B13482 /* TpRecycle */ = {
+			isa = PBXGroup;
+			children = (
+				AC4F2FFF2B74C4DA00B13482 /* AppDelegate.swift */,
+				AC4F30012B74C4DA00B13482 /* SceneDelegate.swift */,
+				AC4F30032B74C4DA00B13482 /* ViewController.swift */,
+				AC4F30052B74C4DA00B13482 /* Main.storyboard */,
+				AC4F30082B74C4DB00B13482 /* Assets.xcassets */,
+				AC4F300A2B74C4DB00B13482 /* LaunchScreen.storyboard */,
+				AC4F300D2B74C4DB00B13482 /* Info.plist */,
+			);
+			path = TpRecycle;
+			sourceTree = "<group>";
+		};
+		AC4F30152B74C4DB00B13482 /* TpRecycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4F30162B74C4DB00B13482 /* TpRecycleTests.swift */,
+				AC4F30182B74C4DB00B13482 /* Info.plist */,
+			);
+			path = TpRecycleTests;
+			sourceTree = "<group>";
+		};
+		AC4F30202B74C4DB00B13482 /* TpRecycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4F30212B74C4DB00B13482 /* TpRecycleUITests.swift */,
+				AC4F30232B74C4DB00B13482 /* Info.plist */,
+			);
+			path = TpRecycleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4F2FFB2B74C4DA00B13482 /* TpRecycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4F30262B74C4DB00B13482 /* Build configuration list for PBXNativeTarget "TpRecycle" */;
+			buildPhases = (
+				AC4F2FF82B74C4DA00B13482 /* Sources */,
+				AC4F2FF92B74C4DA00B13482 /* Frameworks */,
+				AC4F2FFA2B74C4DA00B13482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TpRecycle;
+			productName = TpRecycle;
+			productReference = AC4F2FFC2B74C4DA00B13482 /* TpRecycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4F30112B74C4DB00B13482 /* TpRecycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4F30292B74C4DB00B13482 /* Build configuration list for PBXNativeTarget "TpRecycleTests" */;
+			buildPhases = (
+				AC4F300E2B74C4DB00B13482 /* Sources */,
+				AC4F300F2B74C4DB00B13482 /* Frameworks */,
+				AC4F30102B74C4DB00B13482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4F30142B74C4DB00B13482 /* PBXTargetDependency */,
+			);
+			name = TpRecycleTests;
+			productName = TpRecycleTests;
+			productReference = AC4F30122B74C4DB00B13482 /* TpRecycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4F301C2B74C4DB00B13482 /* TpRecycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4F302C2B74C4DB00B13482 /* Build configuration list for PBXNativeTarget "TpRecycleUITests" */;
+			buildPhases = (
+				AC4F30192B74C4DB00B13482 /* Sources */,
+				AC4F301A2B74C4DB00B13482 /* Frameworks */,
+				AC4F301B2B74C4DB00B13482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4F301F2B74C4DB00B13482 /* PBXTargetDependency */,
+			);
+			name = TpRecycleUITests;
+			productName = TpRecycleUITests;
+			productReference = AC4F301D2B74C4DB00B13482 /* TpRecycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4F2FF42B74C4DA00B13482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					AC4F2FFB2B74C4DA00B13482 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					AC4F30112B74C4DB00B13482 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = AC4F2FFB2B74C4DA00B13482;
+					};
+					AC4F301C2B74C4DB00B13482 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = AC4F2FFB2B74C4DA00B13482;
+					};
+				};
+			};
+			buildConfigurationList = AC4F2FF72B74C4DA00B13482 /* Build configuration list for PBXProject "TpRecycle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4F2FF32B74C4DA00B13482;
+			productRefGroup = AC4F2FFD2B74C4DA00B13482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4F2FFB2B74C4DA00B13482 /* TpRecycle */,
+				AC4F30112B74C4DB00B13482 /* TpRecycleTests */,
+				AC4F301C2B74C4DB00B13482 /* TpRecycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4F2FFA2B74C4DA00B13482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4F300C2B74C4DB00B13482 /* LaunchScreen.storyboard in Resources */,
+				AC4F30092B74C4DB00B13482 /* Assets.xcassets in Resources */,
+				AC4F30072B74C4DA00B13482 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4F30102B74C4DB00B13482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4F301B2B74C4DB00B13482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4F2FF82B74C4DA00B13482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4F30042B74C4DA00B13482 /* ViewController.swift in Sources */,
+				AC4F30002B74C4DA00B13482 /* AppDelegate.swift in Sources */,
+				AC4F30022B74C4DA00B13482 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4F300E2B74C4DB00B13482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4F30172B74C4DB00B13482 /* TpRecycleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4F30192B74C4DB00B13482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4F30222B74C4DB00B13482 /* TpRecycleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4F30142B74C4DB00B13482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4F2FFB2B74C4DA00B13482 /* TpRecycle */;
+			targetProxy = AC4F30132B74C4DB00B13482 /* PBXContainerItemProxy */;
+		};
+		AC4F301F2B74C4DB00B13482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4F2FFB2B74C4DA00B13482 /* TpRecycle */;
+			targetProxy = AC4F301E2B74C4DB00B13482 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4F30052B74C4DA00B13482 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4F30062B74C4DA00B13482 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4F300A2B74C4DB00B13482 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4F300B2B74C4DB00B13482 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4F30242B74C4DB00B13482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4F30252B74C4DB00B13482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4F30272B74C4DB00B13482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TpRecycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tekup.TpRecycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4F30282B74C4DB00B13482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TpRecycle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tekup.TpRecycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC4F302A2B74C4DB00B13482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TpRecycleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tekup.TpRecycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpRecycle.app/TpRecycle";
+			};
+			name = Debug;
+		};
+		AC4F302B2B74C4DB00B13482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TpRecycleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tekup.TpRecycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpRecycle.app/TpRecycle";
+			};
+			name = Release;
+		};
+		AC4F302D2B74C4DB00B13482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TpRecycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tekup.TpRecycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TpRecycle;
+			};
+			name = Debug;
+		};
+		AC4F302E2B74C4DB00B13482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TpRecycleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Tekup.TpRecycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TpRecycle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4F2FF72B74C4DA00B13482 /* Build configuration list for PBXProject "TpRecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4F30242B74C4DB00B13482 /* Debug */,
+				AC4F30252B74C4DB00B13482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4F30262B74C4DB00B13482 /* Build configuration list for PBXNativeTarget "TpRecycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4F30272B74C4DB00B13482 /* Debug */,
+				AC4F30282B74C4DB00B13482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4F30292B74C4DB00B13482 /* Build configuration list for PBXNativeTarget "TpRecycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4F302A2B74C4DB00B13482 /* Debug */,
+				AC4F302B2B74C4DB00B13482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4F302C2B74C4DB00B13482 /* Build configuration list for PBXNativeTarget "TpRecycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4F302D2B74C4DB00B13482 /* Debug */,
+				AC4F302E2B74C4DB00B13482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4F2FF42B74C4DA00B13482 /* Project object */;
+}
