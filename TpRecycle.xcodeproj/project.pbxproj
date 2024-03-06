@@ -15,6 +15,8 @@
 		AC4F300C2B74C4DB00B13482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4F300A2B74C4DB00B13482 /* LaunchScreen.storyboard */; };
 		AC4F30172B74C4DB00B13482 /* TpRecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F30162B74C4DB00B13482 /* TpRecycleTests.swift */; };
 		AC4F30222B74C4DB00B13482 /* TpRecycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F30212B74C4DB00B13482 /* TpRecycleUITests.swift */; };
+		AC4F30432B74E79C00B13482 /* MyClasse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4F30422B74E79C00B13482 /* MyClasse.swift */; };
+		ACFDAE5E2B7E24AC006F7873 /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFDAE5D2B7E24AC006F7873 /* ViewControllerDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AC4F301D2B74C4DB00B13482 /* TpRecycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpRecycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4F30212B74C4DB00B13482 /* TpRecycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpRecycleUITests.swift; sourceTree = "<group>"; };
 		AC4F30232B74C4DB00B13482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4F30422B74E79C00B13482 /* MyClasse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClasse.swift; sourceTree = "<group>"; };
+		ACFDAE5D2B7E24AC006F7873 /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		AC4F2FF32B74C4DA00B13482 = {
 			isa = PBXGroup;
 			children = (
+				AC4F30422B74E79C00B13482 /* MyClasse.swift */,
 				AC4F2FFE2B74C4DA00B13482 /* TpRecycle */,
 				AC4F30152B74C4DB00B13482 /* TpRecycleTests */,
 				AC4F30202B74C4DB00B13482 /* TpRecycleUITests */,
@@ -106,6 +111,7 @@
 				AC4F30082B74C4DB00B13482 /* Assets.xcassets */,
 				AC4F300A2B74C4DB00B13482 /* LaunchScreen.storyboard */,
 				AC4F300D2B74C4DB00B13482 /* Info.plist */,
+				ACFDAE5D2B7E24AC006F7873 /* ViewControllerDetails.swift */,
 			);
 			path = TpRecycle;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				AC4F30042B74C4DA00B13482 /* ViewController.swift in Sources */,
 				AC4F30002B74C4DA00B13482 /* AppDelegate.swift in Sources */,
+				AC4F30432B74E79C00B13482 /* MyClasse.swift in Sources */,
 				AC4F30022B74C4DA00B13482 /* SceneDelegate.swift in Sources */,
+				ACFDAE5E2B7E24AC006F7873 /* ViewControllerDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
